@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2GIS MapGL</title>
+    <title>MapBox</title>
     <style>
         html,
         body,
@@ -20,12 +20,14 @@
 
 <body>
     <div id="container"></div>
-    <script src="https://mapgl.2gis.com/api/js/v1"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.js"></script>
     <script type="text/javascript">
-        const map = new mapgl.Map("container", {
-            center: [37.62017, 55.75346600000001],
-            zoom: 16,
-            key: '042b5b75-f847-4f2a-b695-b5f58adc9dfd', // API key can be used on 2gis.github.io/mapgl-examples only!
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYWt1em5lY292IiwiYSI6ImNrZGZqMDJzNTBkeGQyeG81ZWljMGN6ZmEifQ.BpexP-lnR-mhxdyt8pkLQA';
+        const map = new mapboxgl.Map({
+            container: 'container',
+            style: 'mapbox://styles/mapbox/standard', // Use the standard style for the map
+                    center: [37.62017, 55.75346600000001],
+            zoom: 15,
         });
     </script>
 </body>
