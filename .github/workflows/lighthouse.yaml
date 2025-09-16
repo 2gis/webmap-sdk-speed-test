@@ -12,6 +12,9 @@ jobs:
             https://2gis.github.io/webmap-sdk-speed-test/mapgl/mapgl-zoom-11.html
             https://2gis.github.io/webmap-sdk-speed-test/mapgl/mapgl-zoom-16.html
             https://2gis.github.io/webmap-sdk-speed-test/mapgl/mapgl-zoom-17.html
+            https://2gis.github.io/webmap-sdk-speed-test/mapgl-warm-cache/mapgl-zoom-11.html
+            https://2gis.github.io/webmap-sdk-speed-test/mapgl-warm-cache/mapgl-zoom-16.html
+            https://2gis.github.io/webmap-sdk-speed-test/mapgl-warm-cache/mapgl-zoom-17.html
             https://2gis.github.io/webmap-sdk-speed-test/mapgl-vite-worker/mapgl-zoom-11.html
             https://2gis.github.io/webmap-sdk-speed-test/mapgl-vite-worker/mapgl-zoom-16.html
             https://2gis.github.io/webmap-sdk-speed-test/mapgl-vite-worker/mapgl-zoom-17.html
