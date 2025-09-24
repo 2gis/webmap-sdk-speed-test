@@ -1,17 +1,20 @@
 {
   "ci": {
     "collect": {
-      "numberOfRuns": 4,
+      "numberOfRuns": 5,
       "settings": {
-        "emulatedFormFactor": "none",
+        "formFactor": "desktop",
         "screenEmulation": {
-          "width": 1440,
-          "height": 900,
-          "deviceScaleFactor": 1,
           "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
           "disabled": false
         }
       }
+    },
+    "assert": {
+      "preset": "lighthouse:recommended"
     }
   }
 }
