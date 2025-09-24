@@ -1,0 +1,17 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 5,
+      "settings": {
+        "emulatedFormFactor": "none",
+        "screenEmulation": {
+          "width": 1440,
+          "height": 900,
+          "deviceScaleFactor": 1,
+          "mobile": false,
+          "disabled": false
+        }
+      }
+    }
+  }
+}
